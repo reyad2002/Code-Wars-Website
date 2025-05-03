@@ -37,7 +37,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-#scrollToTop{
+#scrollToTop {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -48,7 +48,7 @@
   width: fit-content;
   padding: 0 6px;
   border-radius: 20px;
- color: #000000;
+  color: #000000;
   outline: none;
   border: none;
   display: none;
@@ -140,10 +140,9 @@
   }
 }
 .interface {
-  background-image: url("/img/man-analyzing-stock-market-charts-financial-data-electronic-board.jpg");
+  background-image: url("../img/man-analyzing-stock-market-charts-financial-data-electronic-board.jpg");
   background-attachment: fixed;
   background-size: cover;
-  /* background-color: #badbff; */
   height: 100vh;
   position: relative;
 }
@@ -401,7 +400,7 @@
 .ces4 {
   width: 100%;
   /* background-color: aqua; */
-  background-image: url(/img/4d1dd71a-88c7-42b3-bf50-3a3a76325783.jpg);
+  background-image: url(../img/4d1dd71a-88c7-42b3-bf50-3a3a76325783.jpg);
   background-attachment: fixed;
   background-size: cover;
   margin-top: 50px;
@@ -533,7 +532,7 @@
 /* /////////////////////////////////////////////////// */
 .ces6 {
   /* background-color: #000000; */
-  background-image: url(/img/2279946.jpg);
+  background-image: url(../img/2279946.jpg);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -674,7 +673,6 @@
 }
 
 .span-contact {
-
   color: var(--primary-color);
   font-size: 1.2rem;
   font-weight: bold;
