@@ -24,3 +24,15 @@ function scrollTooToop() {
     behavior: "smooth",
   });
 }
+
+header = document.getElementById("header")
+window.addEventListener("scroll", function () {
+  
+  if (window.scrollY >=200){
+    header.style.backgroundColor = "var(--primary-color)";
+    
+  }else{
+    header.style.backgroundColor = "transparent";
+
+  }
+})
