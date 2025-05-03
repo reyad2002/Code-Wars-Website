@@ -75,6 +75,7 @@
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   opacity: .9;
+  
 }
 
 .nav ul li {
@@ -114,7 +115,7 @@
 .ulMobile {
   position: absolute;
   width: 100%;
-  top: 75px;
+  top: 60px;
   left: 0;
   row-gap: 40px;
   background-color: var(--primary-color);
@@ -131,7 +132,7 @@
 }
 @media (max-width: 1200px) {
   .header {
-    padding: 25px 50px;
+    padding: 10px 50px;
   }
   .header > h1 a {
     text-decoration: none;
