@@ -568,6 +568,7 @@
   border-radius: 120px 180px 100px 130px;
   cursor: pointer;
   box-shadow: 0px 20px 20px -15px black;
+  scale: 0.9;
 }
 .underimg-ces5 {
   width: 100%;
